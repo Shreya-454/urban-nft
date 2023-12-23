@@ -16,8 +16,8 @@ const Box = () => {
         arrows: false
     };
     return (
-        <div className="box w-full bg-white rounded-[18px] pb-11 relative px-2">
-            <img src={ellipse} alt="ellipse" className="absolute bottom-0" />
+        <div className="box w-full bg-white rounded-[18px] pb-11 relative px-2 z-[1]">
+            <img src={ellipse} alt="ellipse" className="absolute bottom-0 z-[-1]" />
             <div className="flex flex-wrap flex-row">
                 <div className="sm:w-1/2 w-full pl-3 lg:pl-10">
                     <h3 className="font-Inter font-medium text-base bg-clip-text text-transparent bg-text-gradient pt-[79px] pb-[30px]">
