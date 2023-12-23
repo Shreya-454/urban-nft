@@ -8,7 +8,7 @@ import Card3 from "./Card3";
 
 const Dashboard = () => {
   return (
-    <div className="bg-[#EDF1F2] px-2  w-full">
+    <div className="bg-[#EDF1F2] px-2  w-full pb-11">
       <div className="flex flex-wrap flex-row">
         <div className="lg:w-3/4 w-full px-3">
           <Box />
